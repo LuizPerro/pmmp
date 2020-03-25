@@ -1,0 +1,28 @@
+/*==================== 
+    Gestão container
+  ====================
+*/
+
+#gestao {
+    display: flex;
+    justify-content: center;
+}
+
+.gestao-wrapper {
+    width: 500px;
+    padding: 2em;
+}
+
+.gestao-item h4 {
+    background-color: #F8F8F9;
+    padding: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+    border-left: 5px solid #009cde;
+    color: #041e42;
+}
+
+.gestao-item p {
+    font-size: 1.2em;
+    padding-left: 10px;
+}

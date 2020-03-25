@@ -1,0 +1,561 @@
+/* ================
+    header desktop 
+   ================
+*/
+#home-header {
+    padding: 1.5em 0;
+    background-image: url('/galeria/background/header-bg.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 800px) {
+    #home-header {
+        display: none;
+    }
+}
+
+/* =============
+    header logo
+   =============
+*/
+#home-header .logo-header {
+    margin-bottom: 1em;
+}
+
+/* logo responsivo */
+@media only screen and (max-width: 800px) {
+    #home-header .logo-header {
+        display: none;
+        margin-bottom: 0;
+    }
+}
+
+/* ========================
+    Botao da transparencia 
+   ========================
+*/
+#home-header .btn-trasparencia {
+    display: flex;
+    text-decoration: none;
+    background-color: #041E42;
+    color: white;
+    padding: .5em;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+#home-header .btn-trasparencia:hover {
+    background-color: #009CDE;
+}
+
+#home-header .btn-trasparencia p {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+#home-header .btn-trasparencia i {
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+/* =========================
+    Acesso rápido do header 
+   =========================
+*/
+#home-header .acesso-rapido-title {
+    border-left: 4px solid #009CDE;
+    padding-left: .5em;
+    color: #041E42;
+    font-family: 'Maven Pro';
+    text-transform: uppercase;
+}
+
+#home-header .acesso-rapido-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#home-header .acesso-rapido-links li a {
+    margin-right: 1em;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+    text-align: center;
+}
+
+#home-header .acesso-rapido-links li a:hover {
+    border-bottom: 2px solid #009CDE;
+}
+
+/* ======================
+    links de rede social 
+   ====================== 
+*/
+#home-header .header-media-links {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-top: .8em;
+}
+
+#home-header .header-media-links a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    transition: .5s;
+}
+
+#home-header .header-media-links a:hover {
+    color: #009cde;
+}
+
+#home-header .header-media-links i {
+    font-size: 1.5em;
+    margin-right: 0.3em;
+}
+
+/* ========
+    slides
+   ========
+*/
+#slides .carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    #slides .carousel-item img {
+        height: 250px;
+    }
+}
+
+/*================================= 
+    Acesso Rápido container moblie
+  =================================
+*/
+
+#acesso-rapido-moblie {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    #acesso-rapido-moblie {
+        display: block;
+    }
+
+    #acesso-rapido-moblie .acesso-rapido-moblie-wrapper {
+        background-color: rgb(241, 241, 241);
+        padding: 0 1em;
+    }
+    
+    #acesso-rapido-moblie .acesso-rapido-moblie-wrapper ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #acesso-rapido-moblie .acesso-rapido-moblie-wrapper ul li {
+        padding: 1em 0;
+    }
+
+    #acesso-rapido-moblie .acesso-rapido-moblie-wrapper ul li:not(:last-child) {
+        border-bottom: 1px solid #ddd;
+    }
+
+    #acesso-rapido-moblie .acesso-rapido-moblie-wrapper ul li a {
+        text-decoration: none;
+        color: #041E42;
+    }
+
+    #acesso-rapido-moblie .acesso-rapido-moblie-wrapper ul li a i {
+        margin-right: .5em;
+    }
+
+    #acesso-rapido-moblie .acesso-rapido-divide {
+        height: 5px;
+        background-image: linear-gradient(to right, #009cde, white);
+    }
+}
+
+/* ========================
+    historia e publicidade
+   ========================
+*/
+#historia-publicidade .hist-sub-title {
+    color: #009cde;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
+
+#historia-publicidade .hist-title {
+    font-family: 'Maven Pro', sans-serif;
+    color: #041E42;
+    line-height: .8em;
+}
+
+
+#historia-publicidade .hist-img img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#historia-publicidade .hist-text {
+    font-size: 1.3em;
+    margin: 1em 0 2em 0;
+}
+
+#historia-publicidade  .hist-text:before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 25px;
+    content: "\201C";
+    font-size: 200px;
+    color: rgba(170, 170, 170, 0.11);
+    z-index: -1;
+  }
+
+#historia-publicidade .hist-btn a {
+    text-decoration: none;
+    background-color: #041e42;
+    color: white;
+    padding: .5em 1em;
+    font-weight: 700;
+    transition: .5s;
+}
+
+#historia-publicidade .hist-btn a:hover {
+    background-color: #009cde;
+    text-decoration: none;
+    color: white;
+}
+
+#historia-publicidade .revista-img img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#historia-publicidade .revista-title {
+    font-family: 'Maven Pro', sans-serif;
+    color: #041E42;
+    line-height: .8em;
+}
+
+#historia-publicidade .revista-sub-title {
+    color: #009cde;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+#historia-publicidade .revista-text {
+    font-size: 1.3em;
+    margin: 1em 0 2em 0;
+}
+
+#historia-publicidade .revista-btn a {
+    text-decoration: none;
+    background-color: #041E42;
+    padding: .5em 1em;
+    color: white;
+    transition: .5s;
+    font-weight: 600;
+}
+
+#historia-publicidade .revista-btn a:hover {
+    background-color: #009CDE;
+}
+
+/* ===================================
+    historia e publicidade responsivo
+   ===================================
+*/
+@media only screen and (max-width: 800px) {
+    #historia-publicidade .hist-img {
+        margin-top: 2em;
+    }
+
+    #historia-publicidade .hist-btn a {
+        padding: 1em;
+        background-color: #009CDE;
+        color: white;
+    }
+
+    #historia-publicidade .revista-sub-title {
+        margin-top: 1em;
+    }
+
+    #historia-publicidade .revista-btn {
+        margin-bottom: 1em;
+    }
+
+    #historia-publicidade .revista-btn a {
+        padding: 1em;
+        background-color: #009CDE;
+        color: white;
+    }
+}
+
+/* ==========
+    Servicos
+   ==========
+*/
+
+#servicos .servicos-title-section {
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    margin: 1em;
+}
+
+#servicos .servicos-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#servicos .servicos-item {
+    text-align: center;
+    min-width: 300px;
+    padding: 1em;
+    background-color: #F8F8F9;
+    border-radius: 20px;
+}
+
+#servicos .servicos-item-header {
+    text-align: center;
+}
+
+#servicos .servicos-item-header i {
+    font-size: 1.5em;
+    background-color: #041E42;
+    padding: .5em;
+    border-radius: 50%;
+    color: white;
+}
+
+#servicos .servicos-item-header p {
+    margin-top: .5em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#servicos .servicos-item-list {
+    padding: 0;
+    list-style: none;
+}
+
+#servicos .servicos-item-list li {
+    margin-bottom: .5em;
+}
+
+#servicos .servicos-item-list li a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    transition: .5s;
+}
+
+#servicos .servicos-item-list li a:hover {
+    color: #009cde;
+}
+
+/*====================== 
+    Servicos responsivo
+  ======================
+*/
+
+@media only screen and (max-width:800px) {
+    #servicos .servicos-item-header p {
+        margin-top: .5em;
+        font-weight: 900;
+        font-size: 1.5em;
+    }
+    
+    #servicos .servicos-item-list li {
+        margin-bottom: 1em;
+    }
+
+    #servicos .servicos-wrapper {
+        justify-content: center;
+    }
+
+    #servicos .servicos-item {
+        margin-bottom: 2em;
+    }
+}
+
+/*=========== 
+    Noticias
+  ===========
+*/
+#noticias .noticias-title-section {
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    margin: 1em 0;
+}
+
+#noticias .noticias-box {
+    padding: 0 1em 1em 1em;
+}
+
+#noticias .noticias-box-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#noticias .noticias-box-data {
+    background-image: linear-gradient(to right, #ddd, white);
+    padding: .5em;
+    color: #041E42;
+    text-align: right;
+}
+
+#noticias .noticias-box-link {
+    background-color: #009CDE;
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em;
+    color: white;
+}
+
+/* =====================
+    Noticias responsivo 
+   ===================== 
+*/
+@media only screen and (max-width: 800px) {
+    #noticias .noticias-box-title {
+        font-weight: bold;
+        margin-bottom: .5em;
+    }
+
+    #noticias .noticias-box-text {
+        margin-bottom: 1em;
+    }
+    
+    #noticias .noticias-box {
+        padding: 0;
+    }
+
+    #noticias .noticias-box-link {
+        padding: 1em;
+    }
+}
+
+/* ========== 
+    turismo
+   ==========  
+*/
+#turismo {
+    background-image: url("/galeria/slides/slide-lago.jpeg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    margin-top: 3em;
+    position: relative;
+}
+
+#turismo .turismo-img {
+    position: absolute;
+    width: 500px;
+    margin-top: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#turismo .turismo-container {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #009cde);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+#turismo .turismo-container .turismo-box-link {
+    margin: 1em 1em 5em 1em;
+    background-color: #041E42;
+    font-size: 1.2em;
+    transition: .3s;
+}
+
+#turismo .turismo-container .turismo-box-link a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+}
+
+#turismo .turismo-container .turismo-box-link i {
+    margin-right: .5em;
+}
+
+#turismo .turismo-container .turismo-box-link:hover {
+    background-color: #009cde;
+}
+
+/*===================== 
+    turismo responsivo
+  =====================  
+*/
+
+@media only screen and (max-width:800px) {
+    #turismo {
+        height: 300px;
+    }
+
+    #turismo .turismo-img {
+        position: relative;
+        transform: none;
+        top: 0;
+        width: 150px;
+        margin: 1em;
+        left: 0;
+    }
+
+    #turismo .turismo-container {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    #turismo .turismo-container .turismo-box-link {
+        margin: .5em 0;
+        border-radius: 50px 0 0 50px;
+    }
+
+    #turismo .turismo-container .turismo-box-link:hover {
+        background-color: #041E42;
+    }
+}
+
+/* ========= 
+    eventos
+   =========
+*/
+#eventos .eventos-title-section {
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    margin: 1em 0;
+}
+
+#eventos .eventos-box {
+    margin-right: 1em;
+}
+
+#eventos .eventos-box img {
+    max-width: 100%;
+}
+
+/* ====================
+    eventos responsivo
+   ==================== 
+*/
+
+@media only screen and (max-width:800px) {
+    #eventos .eventos-box {
+        margin-right: 0;
+    }
+}

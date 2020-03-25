@@ -1,0 +1,43 @@
+main {
+    margin-top: 1em;
+}
+
+.noticia-img {
+    background-color: rgb(245, 245, 245);
+    padding: 1em;
+}
+
+.noticia-img img {
+    max-width: 100%;
+}
+
+.noticia-data {
+    text-align: center;
+    letter-spacing: 5px;
+    color: #009cde;
+}
+
+.noticia-text h1 {
+    border-bottom: 2px solid #c8efff;
+    padding-bottom: .8em;
+    line-height: 1em;
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.noticia-text p {
+    padding-top: 1em;
+    line-height: 1.7em;
+}
+
+.noticia-text p::first-letter {
+    font-size: 2em;
+    color: #041e42;
+    padding: .3em;
+}
+
+@media only screen and (max-width: 800px) {
+    .noticia-text h1 {
+        font-size: 1.5em;
+    }
+}
