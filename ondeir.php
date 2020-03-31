@@ -84,16 +84,6 @@
             <hr>
             <div class="row">
                 <div class="col-xl-6">
-                    <h1 class="turismo-ponto-title">Museu Francisco Alves</h1>
-                    <p class="turismo-ponto-text">Miguel Pereira é muito procurado por veranistas devido ao seu clima ameno, considerado o 3º melhor do mundo. O cantor Francisco Alves se refugiou na cidade em busca de tranquilidade e deste clima agradável. Discos, partituras, microfones, roupas, instrumentos musicais e ampla iconografia do artista, reunidos no Museu Francisco Alves, contam a trajetória do cantor, que costumava frequentar Miguel Pereira.</p>
-                </div>
-                <div class="col-xl-6">
-                    <!-- <img src="" alt="" class="turismo-ponto-img"> -->
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-xl-6">
                     <h1 class="turismo-ponto-title">Cachoeiras de Vera Cruz</h1>
                     <p class="turismo-ponto-text">As cachoeiras de Vera Cruz são os melhores locais para conhecer a natureza e se refrescar em Miguel Pereira. Localizadas no bairro Vera Cruz, os locais são de fácil acesso pela estrada de terra em meio a mata atlântica, e por isso encanta a todos que passam por lá. Com uma linda paisagem, as cachoeiras são algumas das melhores do Rio de Janeiro.</p>
                 </div>
