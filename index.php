@@ -175,7 +175,7 @@
                 <div class="col-md-6 col-xl-6">
                     <h4 class="revista-sub-title">Baixe nossa</h4>
                     <h1 class="revista-title display-4">REVISTA</h1>
-                    <p class="revista-text">A revista no formato PDF traz informações sobre o perfil da cidade, guias para o turismo e alguns dos projeto futuros que a cidade receberá.</p>
+                    <p class="revista-text">A revista no formato PDF traz informações sobre o perfil da cidade, guias para o turismo e alguns dos projetos futuros que a cidade receberá.</p>
                     <div class="revista-btn">
                         <a href="/files/Revista.pdf">Download</a>
                     </div>
