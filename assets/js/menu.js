@@ -30,13 +30,20 @@ $(".menu-custom-pmmp").find(".nav-link").on("click", function (e) {
   if (this.hash !== '') {
     e.preventDefault();
     const hash = this.hash;
+    const menu_height = $(".menu-custom-pmmp").innerHeight();
 
-    $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      },
-      800
-    );
+    if (window.location.pathname == '/' || window.location.pathname == '/index.php') {
+      $('html, body').animate({
+          scrollTop: ($(hash).offset().top) - menu_height
+        },
+        800
+      );
 
-    $('.navbar-collapse').collapse('hide');
+      $('.navbar-collapse').collapse('hide');
+      window.location.hash = '';
+    } 
+    else {
+      window.location.href = "index.php" + hash;
+    }
   }
 });
