@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    
+    // slick-slides
     $('.eventos-wrapper').slick({
         infinite: true,
         slidesToShow: 3,
@@ -11,5 +13,12 @@ $(document).ready(function () {
                 slidesToScroll: 1
             }
         }]
+    });
+
+    // maginific-popup
+    $('.eventos-wrapper').magnificPopup({
+        delegate: 'a',
+        type : 'image',
+        gallery:{enabled:true}
     });
 });
