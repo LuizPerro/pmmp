@@ -12,6 +12,20 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="/">Início <span class="sr-only">(Página atual)</span></a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Coronavírus (Covid-19)
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="https://transparencia.pmmp.rj.gov.br/?serv=713" class="dropdown-item" target="_blank" rel="noopener">
+                            Ações acerca do combate ao Covid-19
+                        </a>
+                        <a href="https://www.miguelpereiracontraocorona.com" class="dropdown-item" target="_blank" rel="noopener">
+                            Acompanhamento dos casos na cidade
+                        </a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="http://transparencia.pmmp.rj.gov.br/?serv=64" target="_blank" rel="noopener">Secretarias</a>
                 </li>
