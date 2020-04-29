@@ -7,8 +7,8 @@
     <title>Prefeitura Municipal de Miguel Pereira</title>
     <link rel="shortcut icon" href="/galeria/logo/pmmp.ico" type="image/x-icon">
     <!-- libs css -->
-    <?php include('includes/libs/css_libs.html'); ?>
-    <?php include('includes/libs/fonts_libs.html'); ?>
+    <?php include('includes/libs/css_libs.php'); ?>
+    <?php include('includes/libs/fonts_libs.php'); ?>
     <!-- slick theme -->
     <link rel="stylesheet" href="assets/css/slick-theme.min.css">
     <!-- css da pag -->
@@ -91,7 +91,7 @@
     </header>
 
     <!-- menu padrao -->
-    <?php include('includes/templates/menu.html') ?>
+    <?php include('includes/templates/menu.php') ?>
 
     <!-- slides -->
     <section id="slides">
@@ -393,13 +393,13 @@
     </section>
 
     <!-- modal comunicados -->
-    <?php include('includes/templates/modal.html') ?>
+    <?php include('includes/templates/modal.php') ?>
 
     <!-- footer -->
-    <?php include('includes/templates/footer.html'); ?>
+    <?php include('includes/templates/footer.php'); ?>
 
     <!-- js libs -->
-    <?php include('includes/libs/js_libs.html'); ?>
+    <?php include('includes/libs/js_libs.php'); ?>
 
     <!-- js assets -->
     <script src="/assets/js/noticias.js"></script>

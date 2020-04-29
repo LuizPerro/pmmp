@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="/galeria/logo/pmmp.ico" type="image/x-icon">
 
     <!-- libs css -->
-    <?php include('includes/libs/css_libs.html'); ?>
-    <?php include('includes/libs/fonts_libs.html'); ?>
+    <?php include('includes/libs/css_libs.php'); ?>
+    <?php include('includes/libs/fonts_libs.php'); ?>
 
     <!-- css da pagina -->
     <link rel="stylesheet" href="/assets/css/turismo.css">
@@ -17,7 +17,7 @@
 
 <body>
     <!-- menu padrao -->
-    <?php include('includes/templates/menu.html') ?>
+    <?php include('includes/templates/menu.php') ?>
 
     <!-- btn-top -->
     <a href="javascript:;" id="btn-top"><i class="fas fa-arrow-alt-circle-up"></i></a>
@@ -103,13 +103,13 @@
     </main>
 
     <!-- modal comunicados -->
-    <?php include('includes/templates/modal.html') ?>
+    <?php include('includes/templates/modal.php') ?>
     
     <!-- footer -->
-    <?php include('includes/templates/footer.html'); ?>
+    <?php include('includes/templates/footer.php'); ?>
 
     <!-- js libs -->
-    <?php include('includes/libs/js_libs.html'); ?>
+    <?php include('includes/libs/js_libs.php'); ?>
 </body>
 
 </html>
