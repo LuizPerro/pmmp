@@ -1,10 +1,13 @@
 main {
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 .noticia-img {
     background-color: rgb(245, 245, 245);
     padding: 1em;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 90px;
 }
 
 .noticia-img img {
@@ -14,7 +17,7 @@ main {
 .noticia-data {
     text-align: center;
     letter-spacing: 5px;
-    color: #009cde;
+    color: #505050;
 }
 
 .noticia-text h1 {
@@ -25,16 +28,16 @@ main {
     text-transform: uppercase;
 }
 
+.noticia-text h4 {
+    font-size: 1.4rem;
+    margin-top: 1.2em;
+}
+
 .noticia-text p {
     padding-top: 1em;
     line-height: 1.7em;
 }
 
-.noticia-text p::first-letter {
-    font-size: 2em;
-    color: #041e42;
-    padding: .3em;
-}
 
 @media only screen and (max-width: 800px) {
     .noticia-text h1 {
