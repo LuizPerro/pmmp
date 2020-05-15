@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg menu-custom-pmmp sticky-top">
     <div class="container">
         <a class="navbar-brand logo-menu" href="/">
-            <img src="/galeria/logo/logo(white).png" style="width: 150px;">
+            <img src="/galeria/logo/logoNew(white).png" style="width: 150px;">
         </a>
         <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">

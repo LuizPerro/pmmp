@@ -30,7 +30,7 @@
             <div class="row">
                 <!-- logo -->
                 <div class="col-md-12 col-xl-5">
-                    <img class="logo-header" src="galeria/logo/logo.svg"
+                    <img class="logo-header" src="galeria/logo/logoNew.png"
                         alt="Logo Marca Prefeitura Municipal de Miguel Pereira">
                 </div>
                 <!-- widgets section -->
