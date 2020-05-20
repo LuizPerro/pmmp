@@ -14,7 +14,8 @@
                 <div class="col-xl-4">
                     <div class="footer-logo-wrapper">
                         <div class="footer-logo-img">
-                            <img src="/galeria/logo/brasao.svg" alt="brasao da prefeitura municipal de miguel pereira">
+                            <!-- <img src="/galeria/logo/brasao.svg" alt="brasao da prefeitura municipal de miguel pereira"> -->
+                            <img src="/galeria/logo/brasao.png" alt="brasao da prefeitura municipal de miguel pereira">
                         </div>
                         <div class="footer-logo-info-wrapper">
                             <div class="footer-logo-info">

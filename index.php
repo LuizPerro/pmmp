@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prefeitura Municipal de Miguel Pereira</title>
-    <link rel="shortcut icon" href="/galeria/logo/pmmp.ico" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="/galeria/logo/pmmp.ico" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="/galeria/logo/new.ico" type="image/x-icon">
     <!-- libs css -->
     <?php include('includes/libs/css_libs.php'); ?>
     <?php include('includes/libs/fonts_libs.php'); ?>
