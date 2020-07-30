@@ -47,6 +47,12 @@
                     </div>
                     <hr>
                     <div class="onde-comer-item">
+                        <h4 class="onde-comer-title"><i class="fas fa-map-marker-alt"></i> Casa Netuhria</h4>
+                        <p>Praça do Tropeiro 123, Retiro das Palmeiras, Miguel Pereira</p>
+                        <p>(21) 98815-7530</p>
+                    </div>
+                    <hr>
+                    <div class="onde-comer-item">
                         <h4 class="onde-comer-title"><i class="fas fa-map-marker-alt"></i> Adega do Abel</h4>
                         <p>Rua Botija 100, Governador Portela </p>
                         <p>(24) 2484 - 5321</p>
