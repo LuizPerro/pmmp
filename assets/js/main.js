@@ -24,9 +24,9 @@ $('.btn-contrast').on('click', function(e) {
   $('body').toggleClass('contrast');
 
   if ($('body').hasClass('contrast')) {
-    $('.logo-header').attr('src', '/galeria/logo/logoNew(white).png');
+    $('.logo-header').attr('src', '/galeria/logo/logoNew(white).png?v=1');
   } else {
-    $('.logo-header').attr('src', '/galeria/logo/logoNew.png');
+    $('.logo-header').attr('src', '/galeria/logo/logoNew.png?v=1');
   }
 });
 
