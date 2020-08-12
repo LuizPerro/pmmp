@@ -167,19 +167,18 @@
             </div>
             <hr>
             <!-- revista -->
-            <div class="row mt-4">
+            <div class="row mt-4 py-5">
                 <div class="col-md-6 col-xl-6">
                     <div class="revista-img" data-aos="fade-up" data-aos-duration="1500">
-                        <img src="/galeria/resources/revista.jpeg" alt="revista miguel pereira">
+                        <img src="/galeria/resources/calcada_legal.jpg" alt="Programa Calçada Legal - Miguel Pereira">
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-6">
-                    <h4 class="revista-sub-title">Baixe nossa</h4>
-                    <h1 class="revista-title display-4">REVISTA</h1>
-                    <p class="revista-text">A revista no formato PDF traz informações sobre o perfil da cidade, guias para o turismo e alguns dos projetos futuros que a cidade receberá.</p>
+                    <h4 class="revista-sub-title">Programa</h4>
+                    <h1 class="revista-title">CALÇADA LEGAL</h1>
+                    <p class="revista-text">Faça o download do pdf pelo link abaixo e conheça mais sobre o projeto.</p>
                     <div class="revista-btn">
-                        <!-- <a href="/files/Revista.pdf">Download</a> -->
-                        <a href="javascript:;">Download</a>
+                        <a href="/files/calcada_legal.pdf">Download</a> 
                     </div>
                 </div>
             </div>
